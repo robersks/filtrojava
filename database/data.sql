@@ -1,7 +1,6 @@
--- Inserciones para la tabla ninja
-
 USE naruto_rober_barreto;
 
+-- Inserciones para la tabla ninja
 INSERT INTO ninja VALUES 
     ('11','Naruto','Jefe','Aldea de Konoha'),
     ('22','Phineas','Cuidador','Aldea de la construccion'),
@@ -15,9 +14,10 @@ INSERT INTO mision (descripcion,rango,recompensa) VALUES
 
 -- Inserciones para la tabla misionninja
 INSERT INTO misionninja (id_ninja, id_mision) VALUES 
-    ('11', 1),
-    ('22', 2),
-    ('11', 3);
+    ('11', 1);
+
+INSERT INTO misionninja (id_ninja,id_mision,fechafin) VALUES
+    (22,2,NOW());
 
 -- Inserciones para la tabla habilidad
 INSERT INTO habilidad VALUES 
