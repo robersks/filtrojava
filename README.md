@@ -13,4 +13,4 @@ Proyecto en java para modernizar el sistema de gestión de misiones y datos de l
 ![Img-diagrama-base-de-datos](/readmeRecursos/diagramaBaseDeDatos.png)
 
 ## Diagrama de clases
-![Img-diagrama-de-clases](/readmeRecursos/diagramaDeClases.png)
+![Img-diagrama-de-clases](/readmeRecursos/diagramaDeClases.jpg)
