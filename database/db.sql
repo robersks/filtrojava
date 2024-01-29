@@ -27,7 +27,7 @@ CREATE TABLE misionninja(
 CREATE TABLE habilidad(
     id_ninja VARCHAR(20) PRIMARY KEY,
     nombre VARCHAR(50),
-    description VARCHAR(100),
+    descripcion VARCHAR(100),
     FOREIGN KEY (id_ninja) REFERENCES ninja(id)
 );
 
