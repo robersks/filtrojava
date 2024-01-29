@@ -1,4 +1,7 @@
 -- Inserciones para la tabla ninja
+
+USE naruto_rober_barreto;
+
 INSERT INTO ninja VALUES 
     ('11','Naruto','Jefe','Aldea de Konoha'),
     ('22','Phineas','Cuidador','Aldea de la construccion'),

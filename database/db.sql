@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS filtro_java;
-CREATE DATABASE filtro_java;
-USE filtro_java;
+DROP DATABASE IF EXISTS naruto_rober_barreto;
+CREATE DATABASE naruto_rober_barreto;
+USE naruto_rober_barreto;
 CREATE TABLE ninja(
     id VARCHAR(20) PRIMARY KEY,
     nombre VARCHAR(50),
